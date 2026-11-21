@@ -39,8 +39,8 @@ rush and may not decide until 2027.
 
 ## Files
 
-- `entry.png` — the entry image, 1024×1024, drawn by `main.py`.
-- `main.py` — the drawing program (Python 3 + Pillow, no network,
+- `entry.png` — the entry image, 1024×1024, drawn by `compose.py`.
+- `compose.py` — the drawing program (Python 3 + Pillow, no network,
   deterministic: two runs write byte-identical output).
 - `main.ts` — the hand-in program: copies `entry.png` to
   `$MAKEFUN_OUTPUT_DIR/entry.png`.
@@ -48,7 +48,7 @@ rush and may not decide until 2027.
 ## Rebuild
 
 ```sh
-python3 main.py   # renders entry.png
+python3 compose.py   # renders entry.png
 node main.ts         # delivers entry.png to /output
 ```
 

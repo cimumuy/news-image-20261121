@@ -1,6 +1,6 @@
 // main.ts -- hand-in program for the news-image-20261121 entry.
 //
-// The picture itself is drawn ahead of time by main.py (see README.md);
+// The picture itself is drawn ahead of time by compose.py (see README.md);
 // this program's whole job is to deliver it: copy the repository's
 // entry.png into $MAKEFUN_OUTPUT_DIR (falling back to /output).
 //
