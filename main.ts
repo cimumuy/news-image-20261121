@@ -17,7 +17,8 @@ function deliver(): void {
   const to: string = path.join(targetDir, "entry.png");
   fs.mkdirSync(targetDir, { recursive: true });
   fs.copyFileSync(from, to);
-  console.log("delivered " + from + " -> " + to);
+  const bytes: number = fs.statSync(to).size;
+  console.log("delivered " + from + " -> " + to + " (" + bytes + " bytes)");
 }
 
 deliver();
