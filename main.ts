@@ -1,4 +1,5 @@
-// main.ts -- hand-in program for the news-image-20261121 entry.
+// main.ts -- hand-in program for the news-image-20261121 entry, an entry
+// for the make.fun bounty "Sum up 21 November's world news in one image".
 //
 // The picture itself is drawn ahead of time by compose.py (see README.md);
 // this program's whole job is to deliver it: copy the repository's
